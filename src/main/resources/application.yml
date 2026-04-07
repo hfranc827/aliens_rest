@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: aliens_rest
+  datasource:
+    url: jdbc:mysql://localhost:3306/bd_aliens?createDatabaseIfNotExist=true
+    username: root
+    password: python33
+    driver-class-name: com.mysql.cj.jdbc.Driver
